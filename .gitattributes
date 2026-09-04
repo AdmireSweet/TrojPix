@@ -1,0 +1,4 @@
+decode/data filter=lfs diff=lfs merge=lfs -text
+decode/sampling_results/** filter=lfs diff=lfs merge=lfs -text
+encode/AttackVideo/*.mkv filter=lfs diff=lfs merge=lfs -text
+examples/data/** filter=lfs diff=lfs merge=lfs -text
